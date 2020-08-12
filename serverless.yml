@@ -1,4 +1,4 @@
-service: notes1711-app-uploads
+service: notes17
 
 # Create an optimized package for our functions
 package:
@@ -33,7 +33,7 @@ provider:
               - dynamodb:PutItem
               - dynamodb:UpdateItem
               - dynamodb:DeleteItem
-          Resource: "arn:aws:cognito-idp:eu-west-2:808303928720:userpool/eu-west-2_vU8exNtMo"
+          Resource: "arn:aws:cognito-idp:eu-west-2:808303928720:userpool/eu-west-2_otEpu3aau"
 
 functions:
     # Defines an HTTP API endpoint that calls the main function in create.js
